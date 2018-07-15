@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="191dp"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_alignTop="@+id/button9"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/field"
+        android:text="@string/Сайты"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="119dp"
+        android:background="@drawable/button"
+        android:text="@string/Помощ"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_alignTop="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/field"
+        android:text="@string/Переводы"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/button8"
+        android:layout_alignTop="@+id/button"
+        android:background="@drawable/field"
+        android:text="@string/Телевидения"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="197dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/button"
+        android:elevation="15dp"
+        android:text="@string/удобства"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/button5"
+        android:layout_alignTop="@+id/button"
+        android:background="@drawable/field"
+        android:text="@string/связь"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button2"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/button"
+        android:text="@string/провайдеры"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginBottom="41dp"
+        android:background="@drawable/button"
+        android:text="@string/Телефония"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignTop="@+id/button4"
+        android:background="@drawable/button"
+        android:text="@string/click_uz"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Подключения"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="237dp"
+        android:background="@drawable/head"
+        android:text="@string/Подключения"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

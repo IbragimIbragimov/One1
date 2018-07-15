@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">One1</string>
+    <string name="click">CLICK</string>
+    <string name="Подключения">Подключения к системе</string>
+    <string name="удобства">Запросы для удобства</string>
+    <string name="click_uz">click.uz</string>
+    <string name="Сайты">Сайты</string>
+    <string name="Телефония">Телефония</string>
+    <string name="Телевидения">Телевидения</string>
+    <string name="Помощ">Помощ друга</string>
+    <string name="связь">Мобильная связь</string>
+    <string name="провайдеры">Интернет-провайдеры</string>
+    <string name="Переводы">Переводы с карты на карту</string>
+</resources>
